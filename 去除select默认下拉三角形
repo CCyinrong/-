@@ -1,0 +1,33 @@
+html：
+<div class="selectbg">
+	<div class="selectbox">
+		<select name="" id="" class="select" >
+			<option value="请选择">请选择</option>
+			<option value="">北京</option>
+			<option value="">北京</option>
+		</select>
+	</div>
+</div>
+css：
+.selectbg{
+	width:465px;
+	height:58px;
+	line-height:58px;
+	display:inline-block;
+	border:1px solid #b5b5b5;
+	background:#f2f2f2 url(../images/down.gif) no-repeat 428px center;
+}
+.selectbox{
+	width:435px;
+	overflow: hidden;
+}
+.select{
+	width:465px;
+	height:58px;
+	border:none;
+	line-height:58px;
+	text-indent:18px;
+	padding:20px 0\9;
+	background: transparent;
+}
+.select option{line-height:50px;}
