@@ -1,0 +1,25 @@
+/不定宽高水平垂直居中 //第一种方案 
+.wrapper{ 
+  top:50%; 
+  left:50%; 
+  z-index:3; 
+  background:red; 
+  border-radius:6px;
+  position:absolute; 
+  transform:translate(-50%,50%); 
+  }
+
+//第二种方案 
+justify-content:center;//子元素水平
+box-pack:center;//子元素垂直居中 
+display:-webkit-flex; //固定宽高水平垂直居中
+.wrapper{
+  top:50%;
+  left:50%;
+  width:500px;
+  height:500px; 
+  position:absolute; 
+  margin-top:-250px; 
+  margin-left:-250px;
+  background-color:red;
+  }
